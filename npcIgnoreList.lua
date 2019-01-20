@@ -121,7 +121,7 @@ iEET.npcIgnoreList = {
 	[106317] = true,	--Storm Totem
 	[106319] = true,	--Ember Totem
 	[106321] = true,	--Tailwind Totem
-	[140787] = truem    --Ember Elemental
+	[140787] = true,    --Ember Elemental
 
 --Warlock
 	[89] = true,		--Infernal
