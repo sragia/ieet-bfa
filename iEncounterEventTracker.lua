@@ -296,7 +296,7 @@ iEET.events = {
 		},
 		[34] = {
 			l = 'UNIT_POWER_UPDATE',
-			s = 'UNIT_POWER_UPDATE',
+			s = 'UNIT_POWER_UP',
 		},
 		[35] = {
 			l = 'PLAYER_REGEN_DISABLED',
