@@ -1655,7 +1655,7 @@ function iEET:addSpellDetails(hyperlink, linkData)
 end
 function iEET:addToContent(timestamp,event,casterName,targetName,spellName,spellID,intervall,count,sourceGUID, hp, extraData, destGUID, realTimeStamp)
 	local color = iEET:getColor(event, sourceGUID, spellID)
-	iEET:addMessages(1, 1, timestamp, color, '\124HiEETTotaltime:' .. timestamp..':'..realTimeStamp..'\124h%s\124h')
+	iEET:addMessages(1, 1, timestamp, color, '\124HiEETTotaltime:' .. event .. ':' .. timestamp .. ':' .. realTimeStamp .. '\124h%s\124h')
 	iEET:addMessages(1, 2, intervall, color, intervall and ('\124HiEETtime:' .. intervall ..'\124h%s\124h') or nil)
 	iEET:addMessages(1, 3, iEET.events.fromID[event].s, color)
 	if event == 29 or event == 30 or event == 31 or event == 43 or event == 44 or event == 45 or event == 46 then -- MONSTER_EMOTE = 29, MOSNTER_SAY = 30, MONSTER_YELL = 31, RAID_BOSS_EMOTE = 43, RAID_BOSS_WHISPER = 44
@@ -1720,7 +1720,7 @@ function iEET:addToContent(timestamp,event,casterName,targetName,spellName,spell
 		if spellID == 133217 then -- INSTANCE_ENCOUNTER_ENGAGE_UNIT
 			iEET:addMessages(1, 4, spellName, color,'\124HiEETNpcList:' .. sourceGUID .. '\124h%s\124h')
 		elseif event and event == 34 then -- UNIT_POWER
-			iEET:addMessages(1, 4, spellName, color,'\124HiEETList:' .. (extraData and string.gsub(extraData, '%%', '%%%%') or 'Empty List;Contact Ironi') .. '\124h%s\124h')
+			iEET:addMessages(1, 4, spellName, color,'\124HiEETList:' .. event .. ':' .. (extraData and string.gsub(extraData, '%%', '%%%%') or 'Empty List;Contact Ironi') .. '\124h%s\124h')
 		else
 			local unitType, _, serverID, instanceID, zoneID, npcID, spawnID
 			if sourceGUID then
