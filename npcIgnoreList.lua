@@ -6,6 +6,8 @@ iEET.npcIgnoreList = {
 	[77789] = true,		--Blingtron 5000
 	[92993] = true,		--Burning Blade Banner
 
+	[143520] = true, 	-- Ghuun Trinket
+
 --Death Knight
 	[24207] = true, 	--Army of the Dead
 	[26125] = true,		--Ghoul
@@ -46,6 +48,7 @@ iEET.npcIgnoreList = {
 	[121661] = true,	--Sneaky Snake
 	[128751] = true,	--Beast
 	[128752] = true,	--Beast
+	[149584] = true,    --Beast
 
 --Mage
 	[31216] = true,		--Mirror Image
@@ -118,6 +121,7 @@ iEET.npcIgnoreList = {
 	[106317] = true,	--Storm Totem
 	[106319] = true,	--Ember Totem
 	[106321] = true,	--Tailwind Totem
+	[140787] = truem    --Ember Elemental
 
 --Warlock
 	[89] = true,		--Infernal
@@ -146,6 +150,7 @@ iEET.npcIgnoreList = {
 	[108452] = true,	--Infernal
 	[108493] = true,	--Chaos Tear
 	[121643] = true,	--Flame Rift
+	[135002] = true,    --Demonic Tyrant
 
 
 --Warrior
