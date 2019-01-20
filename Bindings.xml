@@ -1,0 +1,17 @@
+<Bindings>
+	<Binding name="IEET_TOGGLE" header="IEET" category="ADDONS">
+		IEET_TOGGLE("frame")
+	</Binding>
+	<Binding name="IEET_EXPORT" category="ADDONS">
+		IEET_TOGGLE("export")
+	</Binding>
+	<Binding name ="IEET_COPY" category="ADDONS">
+		IEET_TOGGLE("copy")
+	</Binding>
+	<Binding name ="IEET_OPTIONS" category="ADDONS">
+		IEET_TOGGLE("options")
+	</Binding>
+	<Binding name ="IEET_FORCE" category="ADDONS">
+		IEET_TOGGLE("force")
+	</Binding>
+</Bindings>
